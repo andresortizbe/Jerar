@@ -1,6 +1,7 @@
 import React from "react";
-import Logo from './logo'
-import Icon from './icon'
+import Logo from './logo';
+import Icon from './icon';
+import SmallIcon from './small';
 /* Importar los componentes */
 import SearchBar from "./search-bar";
 import imgBar from "../images/busq.png";
@@ -21,13 +22,13 @@ export default function Navbar(props) {
   <SearchBar 
     image={imgBar}
   />
-  <Icon 
+  <SmallIcon 
     iconUrl={iconVideo}
   />
-  <Icon
+  <SmallIcon
     iconUrl={iconModule}
   />
- <Icon
+ <SmallIcon
     iconUrl={iconBell}
   />
 
